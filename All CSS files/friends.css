@@ -1,0 +1,9 @@
+h1{text-align: center; font-size: 22px;}
+a{font-style: italic;}
+h2{text-align: center;}
+.ryadok1{text-align: center;background-color: green; color: black; font-weight: 600;}
+.grey{background-color: grey;}
+.white{background-color: white;}
+.telephone{text-align: right;}
+th{border: black; border-width: 2px; border-style: solid; padding: 10px; text-align: center;}
+td{border: black; border-width: 2px; border-style: solid; padding: 3px; text-align: center;}
