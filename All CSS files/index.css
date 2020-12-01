@@ -10,3 +10,24 @@ a.silka3:link{color: blue;}
     a.silka3:visited{color: yellow;}
 a.silka4:link{color: blueviolet;}
     a.silka4:visited{color: pink;}
+@media (min-width: 993px) {
+a{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+    }
+@media (min-width: 769px) and (max-width: 992px){
+    a{
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    a{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+}

@@ -5,3 +5,19 @@ h2{text-align: center;}
 .white{background-color: white;}
 .kursor{cursor: pointer;}
 #fon{background-color: pink;}
+@media (min-width: 993px){
+    #persiyspisok{
+    width: 50%;
+    float: left;
+}
+    #drygoyspisok{
+        width: 50%;
+        float: left;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}

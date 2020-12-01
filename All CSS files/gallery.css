@@ -6,3 +6,14 @@ h3{text-align: center;}
 #second{font-size: 31.2px;}
 #third{font-size: 40.56px;}
 p{text-align: center;}
+
+
+@media (min-width: 993px){
+
+}
+@media (min-width: 769px) and (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
