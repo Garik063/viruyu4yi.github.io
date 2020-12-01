@@ -4,6 +4,7 @@
     background-color: bisque;
     padding: 0.5%;
     margin: 0 auto;
+    margin-right: 2%;
 
 }
 
@@ -13,6 +14,7 @@
     background-color: bisque;
     padding: 0.5%;
     margin: 0 auto;
+    margin-right: 2%;
 }
 
 #sushi {
@@ -21,6 +23,7 @@
     background-color: bisque;
     padding: 0.5%;
     margin: 0 auto;
+    margin-right: 2%;
 }
 
 p {
@@ -35,46 +38,29 @@ h1 {
 }
 
 
-@media (min-width: 993px) {
-    #top {
-        width: 33.33%;
+@media screen and (min-width: 993px) {
+    .head{
         float: left;
-    }
-    #enter{
         width: 33.33%;
-        float: left;
-    }
-    #center{
-        width: 33.33%;
-        float: left;
     }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-    #top {
-        width: 33.33%;
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #pershiy{
         float: left;
+        width: 50%;
     }
-    #enter{
-        width: 66.66%;
+    #drygiy{
         float: left;
+        width: 50%;
     }
-    #center{
-        width: 33.33%;
+    #tretiy{
         float: left;
+        width: 100%;
     }
-}
-@media (max-width: 768px) {
 
-    #top {
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .head{
         width: 100%;
-        float: left;
-    }
-    #enter{
-        width: 100%;
-        float: left;
-    }
-    #center{
-        width: 100%;
-        float: left;
     }
 }
