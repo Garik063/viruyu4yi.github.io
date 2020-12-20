@@ -57,15 +57,21 @@ h1 {
         float: left;
         width: 100%;
     }
-#tretiy>p{
+    #tretiy>p{
     margin: 9.625px;
-}
-#sushi{
+    }
+    #sushi{
     margin-right: 9.625px;
-}
-p{
+    }
+    #chicken{
+        margin-right: 9.625px;
+    }
+    #beef{
+        margin-right: 9.625px;
+    }
+    p{
     margin: 9.625px;
-}
+    }
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
     .head{
