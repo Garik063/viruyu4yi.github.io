@@ -45,19 +45,27 @@ h1 {
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    #pershiy{
+    .first{
         float: left;
         width: 50%;
     }
-    #drygiy{
+    .second{
         float: left;
         width: 50%;
     }
-    #tretiy{
+    .third{
         float: left;
         width: 100%;
     }
-
+#tretiy>p{
+    margin: 9.625px;
+}
+#sushi{
+    margin-right: 9.625px;
+}
+p{
+    margin: 9.625px;
+}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
     .head{
