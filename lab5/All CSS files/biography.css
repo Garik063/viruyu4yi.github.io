@@ -22,7 +22,9 @@ article{
     padding: 5px;
 }
 h2{font-size: 1.8em;}
+
 .zmist{font-weight: 600;}
+
 #first{
     background-color: aqua;
     border: 1px solid black;
@@ -45,71 +47,7 @@ h2{font-size: 1.8em;}
 }
 #propis{text-transform: uppercase;}
 
+* {
+    font-family: 'Poiret One', cursive;
+}
 
-
-@media screen and (min-width: 993px){
-    .perhiy{
-    width: 33.33%;
-    float: left;
-    }
-    .drygoi{
-        width: 33.33%;
-        float: left;
-    }
-    .treriy{
-        width: 33.33%;
-        float: left;
-    }
-    .chetver{
-        width: 50%;
-        float: left;
-    }
-    .pyti{
-        width: 50%;
-        float: left;
-    }
-}
-@media screen and (min-width: 769px) and (max-width: 992px){
-    .perhiy{
-        width: 50%;
-        float: left;
-    }
-    .drygoi{
-        width: 50%;
-        float: left;
-    }
-    .treriy{
-        width: 50%;
-        float: left;
-    }
-    .chetver{
-        width: 50%;
-        float: left;
-    }
-    .pyti{
-        width: 100%;
-        float: left;
-    }
-}
-@media screen and (min-width: 0px) and (max-width: 768px){
-    .perhiy{
-        width: 100%;
-        float: left;
-    }
-    .drygoi{
-        width: 100%;
-        float: left;
-    }
-    .treriy{
-        width: 100%;
-        float: left;
-    }
-    .chetver{
-        width: 100%;
-        float: left;
-    }
-    .pyti{
-        width: 100%;
-        float: left;
-    }
-}
